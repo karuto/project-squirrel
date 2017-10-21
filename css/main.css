@@ -15,6 +15,18 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+img {
+  max-width: 100%;
+}
 
 /*
  * Remove text-shadow in selection highlight:
