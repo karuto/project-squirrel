@@ -59,27 +59,3 @@ body {
     margin: 0 32px;
   }
 }
-.hero {
-  position: relative;
-  z-index: 2;
-}
-.hero__img {
-  height: 480px;
-  width: 720px;
-  z-index: -1;
-  position: absolute;
-  right: 0; /* align to right */
-  box-shadow: 0 0 64px 8px rgba(0,0,0,.2); /* offset-x, offset-y, blur radius, spread radius */
-  background: rosybrown url('../img/hero.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.hero__content {
-  z-index: 1;
-  height: 400px; /* should be slightly smaller than hero__img height */
-  color: #FFF;
-  font-size: 48px;
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.3;
-}
