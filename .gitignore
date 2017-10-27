@@ -1,5 +1,6 @@
-# Grav Specific
+# Software created
 node_modules/
+npm-debug.log
 
 # OS Generated
 .DS_Store*
