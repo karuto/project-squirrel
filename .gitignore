@@ -1,6 +1,7 @@
 # Software created
 node_modules/
 npm-debug.log
+package-lock.json
 
 # OS Generated
 .DS_Store*
