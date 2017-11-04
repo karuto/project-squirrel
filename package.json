@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/karuto/project-squirrel/issues"
   },
-  "homepage": "https://github.com/karuto/project-squirrel"
+  "homepage": "https://github.com/karuto/project-squirrel",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
