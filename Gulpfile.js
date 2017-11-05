@@ -1,8 +1,9 @@
 var gulp = require('gulp');
 
-gulp.task('styles', function() {
+gulp.task('default', function() {
     gulp.src('css/*.css')
-        .pipe(gulp.dest('dist/app.css'));
+        .pipe(concat('app.min.css'))
+        .pipe(gulp.dest('dist/'));
 });
 
 // TODO: I was in the middle of setting up Gulp and Sass, but my machine's NPM doesn't work.
