@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var concat = require('gulp-concat');
+var cleanCSS = require('gulp-clean-css');
 
 gulp.task('default', function() {
   gulp.src('./css/*.css')
