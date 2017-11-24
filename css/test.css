@@ -34,23 +34,6 @@ body {
 
 
 .header {
-  background: rosybrown;
-  /*background: #283e4c url(https://images.unsplash.com/photo-1496450080853-5f78c43af9e9?w=2250);*/
-  background-size: cover;
-  width: 100%;
-  position: relative;
-  padding: 96px 0 192px;
-}
-.header::after {
-  background: white;
-  bottom: 0px;
-  content: '';
-  height: 200px;
-  position: absolute;
-  transform-origin: right bottom;
-  transform: skewY(-4.5deg);
-  width: 100%;
-  z-index: 1;
 }
 .maxwidth {
   max-width: 960px;
