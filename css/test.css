@@ -1,3 +1,29 @@
+:root {
+  --maxwidth: 960px;
+  --maxwidth-content: 860px;
+  --breakpoint-mobile-max: 767px;
+
+  --spacing-base: 16px;
+  --spacing-xsmall: 4px;
+  --spacing-small: 8px;
+  --spacing: 16px;
+  --spacing-medium: 24px;
+  --spacing-large: 32px;
+  --spacing-xlarge: 40px;
+  --spacing-xxlarge: 48px;
+  --spacing-xxxlarge: 64px;
+  --spacing-gigantic: 96px;
+}
+
+$spacing-xsmall: ($spacing * 0.25);
+$spacing-small: ($spacing * 0.5);
+$spacing-smaller: ($spacing * 0.75);
+$spacing-medium: ($spacing * 1.5);
+$spacing-large: ($spacing * 2);
+$spacing-xlarge: ($spacing * 2.5);
+$spacing-xxlarge: ($spacing * 3); /* 48px */
+$spacing-xxxlarge: ($spacing * 4); /* 64px */
+$spacing-gigantic: ($spacing * 6); /* 96px */
 body {
   font-family: "brandon text", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
@@ -5,10 +31,10 @@ body {
 .header {
 }
 
-.maxwidth {
-  max-width: 960px;
+.content {
+  max-width: var(--maxwidth-content);
   margin: 0 auto;
-  @media (max-width: 767px) {
-    margin: 0 32px;
+  @media (max-width: var(--breakpoint-mobile-max)) {
+    margin: 0 var(--spacing-large);
   }
 }
