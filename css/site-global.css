@@ -16,19 +16,9 @@
   --spacing-gigantic: 96px;
 }
 
-$spacing-xsmall: ($spacing * 0.25);
-$spacing-small: ($spacing * 0.5);
-$spacing-smaller: ($spacing * 0.75);
-$spacing-medium: ($spacing * 1.5);
-$spacing-large: ($spacing * 2);
-$spacing-xlarge: ($spacing * 2.5);
-$spacing-xxlarge: ($spacing * 3); /* 48px */
-$spacing-xxxlarge: ($spacing * 4); /* 64px */
-$spacing-gigantic: ($spacing * 6); /* 96px */
-
 /* Globals styles */
 body {
-  font-family: "brandon text", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  background: black;
 }
 
 a {
@@ -46,7 +36,7 @@ a {
 }
 
 .header {
-  margin: var(--spacing-large) 0;
+  margin: var(--spacing-large) auto;
 }
 
 .content {
