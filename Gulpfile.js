@@ -12,4 +12,6 @@ gulp.task('default', function() {
 Note: `.pipe(minifyCSS())` was removed from the stylesheet processing because
 I suspect there is a bug where it does not compile for certain classes.
 Such as a `.header {}` declaration in `site-global.css` that never made it.
+This could also be a bug for `clean-css`, the package powers `gulp-clean-css`
+behind the scenes.
 */
