@@ -766,11 +766,13 @@ template {
   --spacing-xxlarge: 48px;
   --spacing-xxxlarge: 64px;
   --spacing-gigantic: 96px;
+
+  --color-body-bg: white;
 }
 
 /* Globals styles */
 body {
-  background: black;
+  background-color: var(--color-body-bg);
 }
 
 a {
