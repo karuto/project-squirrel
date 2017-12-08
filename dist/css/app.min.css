@@ -770,7 +770,9 @@ template {
   --color-body-bg: white;
 }
 
-/* Globals styles */
+
+
+/* Globals HTML elements */
 body {
   background-color: var(--color-body-bg);
 }
@@ -780,6 +782,8 @@ a {
 }
 
 
+
+/* Global utilities */
 .maxwidth {
   max-width: var(--maxwidth);
   margin-left: auto;
@@ -789,10 +793,20 @@ a {
   }
 }
 
+
+
+/* Header */
 .header {
   margin: var(--spacing-large) auto;
 }
 
+.logo {
+  font-size: 32px;
+}
+
+
+
+/* Content */
 .content {
   max-width: var(--maxwidth-content);
   margin: 0 auto;
