@@ -4,6 +4,7 @@
   --maxwidth-content: 860px;
   --breakpoint-mobile-max: 767px;
 
+  /* Globally applicable spacings */
   --spacing-base: 16px;
   --spacing-xsmall: 4px;
   --spacing-small: 8px;
