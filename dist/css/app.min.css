@@ -824,3 +824,15 @@ a {
 .slick-center {
   width: 400px;
 }
+.slick-arrow {
+  position: absolute;
+  z-index: 100;
+}
+.slick-prev {
+  top: 0;
+  right: 50px;
+}
+.slick-next {
+  top: 0;
+  right: 0;
+}
