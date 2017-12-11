@@ -16,7 +16,7 @@
   --spacing-xxxlarge: 64px;
   --spacing-gigantic: 96px;
 
-  --color-body-bg: white;
+  --color-body-bg: #EAEAEA;
 }
 
 
@@ -24,6 +24,7 @@
 /* Globals HTML elements */
 body {
   background-color: var(--color-body-bg);
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
