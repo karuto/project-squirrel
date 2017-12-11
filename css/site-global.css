@@ -16,7 +16,11 @@
   --spacing-xxxlarge: 64px;
   --spacing-gigantic: 96px;
 
+  --font-size-header: 18px;
+
   --color-body-bg: #EAEAEA;
+
+  --type-body: 'Montserrat', sans-serif;
 }
 
 
@@ -24,7 +28,7 @@
 /* Globals HTML elements */
 body {
   background-color: var(--color-body-bg);
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--type-body);
 }
 
 a {
@@ -48,10 +52,10 @@ a {
 /* Header */
 .header {
   margin: var(--spacing-large) auto;
+  font-size: var(--font-size-header);
 }
 
 .logo {
-  font-size: 32px;
 }
 
 
