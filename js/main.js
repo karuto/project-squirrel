@@ -1,5 +1,9 @@
 $(document).ready(function(){
-  $('.photo-slides').slick();
+  $('.photo-slides').slick({
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3
+  });
 });
 
 
