@@ -819,3 +819,8 @@ a {
 .photo-slides {}
 .photo-slide {}
 .photo {}
+
+/* Slick overrides */
+.slick-center {
+  width: 400px;
+}
