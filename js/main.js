@@ -1,9 +1,7 @@
 $(document).ready(function(){
   $('.photo-slides').slick({
     centerMode: true,
-    centerPadding: '60px',
-    slidesToShow: 1,
-    variableWidth: false,
+    slidesToShow: 3,
     adoptiveHeight: true
   });
 });
