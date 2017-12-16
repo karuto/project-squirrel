@@ -816,11 +816,32 @@ a {
   margin: 0 var(--spacing-xxlarge);
 }
 
-.photo-slides {}
+.photo-slides {
+  display: flex;
+}
 .photo-slide {}
-.photo {}
+.thumbnail {
+  position: relative;
+  width: 145px;
+  height: 145px;
+  overflow: hidden;
+  margin: 0 var(--spacing-xsmall);
+}
+.thumbnail .photo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
 
 /* Slick overrides */
+.slick-slide.thumbnail {
+  height: 145px;
+}
 .slick-center {
   width: 400px;
 }

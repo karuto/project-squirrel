@@ -1,8 +1,17 @@
 $(document).ready(function(){
+  $('.showcase').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.photo-slides'
+  });
+
   $('.photo-slides').slick({
     centerMode: true,
-    slidesToShow: 3,
-    adoptiveHeight: true
+    slidesToShow: 5,
+    focusOnSelect: true,
+    asNavFor: '.showcase'
   });
 });
 
